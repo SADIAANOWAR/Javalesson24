@@ -1,0 +1,30 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+
+		// String are immutable - it cannot be changed
+		String s = "Welcome 123";// string literal
+		//s = "Welcome to Java Selenium";
+
+		int num = 1000;
+		num = 2000;
+		String s2 = new String("Welcome");// through string object
+		
+		//to learn important methods of String Class
+		//length()--counts all the characters in a string and returns the number in int data type
+		
+		int length =   s2.length();
+		System.out.println("The length is : "+length);
+		
+		System.out.println(s.length());
+		
+		
+		//concat()- join multiple strings 
+		String s1 = "Welcome";
+		String s3 = " to java";
+		String s4 = " programming";
+		System.out.println(s1.concat(s3).concat(s4)); 
+	}
+}

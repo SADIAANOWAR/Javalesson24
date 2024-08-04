@@ -1,0 +1,16 @@
+package OOPs;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Student student1 = new Student(); // object creation //Student is data type
+
+		student1.s_id = 1000;
+		student1.s_name = "Sadia";
+		student1.s_grade = 'A';
+		student1.printStudentsData();
+
+	}
+
+}

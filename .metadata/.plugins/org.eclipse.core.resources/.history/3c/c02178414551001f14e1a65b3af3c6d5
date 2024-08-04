@@ -1,0 +1,25 @@
+package Action_item4;
+
+public class FindingLargest_Lowest {
+	
+	    public static void main(String[] args) {
+	        int[] array = {5, 2, 8, 1, 9, 3, 7, 6, 4};
+
+	        int largest = array[0];
+	        int lowest = array[0];
+
+	        for (int i = 1; i < array.length; i++) {
+	            if (array[i] > largest) {
+	                largest = array[i];
+	            }
+	            if (array[i] < lowest) {
+	                lowest = array[i];
+	            }
+	        }
+
+	        System.out.println("Largest number: " + largest);
+	        System.out.println("Lowest number: " + lowest);
+	    }
+	}
+
+}

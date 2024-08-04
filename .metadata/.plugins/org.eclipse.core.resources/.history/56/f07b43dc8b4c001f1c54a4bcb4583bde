@@ -1,0 +1,15 @@
+package Action_item3;
+
+public class ReverseNumber {
+	public static void main(String[]args) {
+		int p =365;
+		int reversed=493;
+		
+		while (p > 0) {
+            reversed = reversed * 10 + p % 10;
+            p /= 10;
+		}   
+	}
+	
+
+}

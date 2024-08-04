@@ -1,0 +1,32 @@
+package day5;
+
+public class PalindromeOrNot {
+
+	public static void main(String[] args) {
+
+		int originalNumber = 123321, reverse = 0;
+		System.out.println("The original number is : "+ originalNumber);
+
+
+		while (originalNumber != 0) {
+			
+			int remainder = originalNumber % 10;
+			reverse =reverse * 10 + remainder;
+
+			originalNumber = originalNumber / 10;
+
+		}
+		System.out.println("The reverse number is : "+ reverse);
+		
+		if(originalNumber == reverse) {
+			System.out.println("It is palindrome");
+			
+		}else {
+			System.out.println("Not a palindrome!!!");
+		}
+		
+	    
+
+	}
+
+}

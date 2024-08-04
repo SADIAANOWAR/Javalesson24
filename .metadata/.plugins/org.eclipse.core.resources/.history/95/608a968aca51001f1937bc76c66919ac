@@ -1,0 +1,12 @@
+package OOPs;
+
+public class ConstractorDemo {
+	
+	
+	String name;
+	String  streetName;
+	int houseNumber;
+	int ziCode;
+	
+
+}

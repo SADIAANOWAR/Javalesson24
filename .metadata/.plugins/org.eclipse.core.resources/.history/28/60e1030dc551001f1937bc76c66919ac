@@ -1,0 +1,21 @@
+package OOPs;
+
+public class MethodDemo {
+	// 1.No parameters no return
+	public void methodOne() {
+		System.out.println("Hey, we are learning method!");
+
+	}
+
+	// 2.No parameters but returns value
+	public String methodTwo() {
+		//return ("how are you doing?");
+		String a="Hello.";
+		String b="how are you?";
+		return a + b;
+		
+		
+		
+	}
+
+}

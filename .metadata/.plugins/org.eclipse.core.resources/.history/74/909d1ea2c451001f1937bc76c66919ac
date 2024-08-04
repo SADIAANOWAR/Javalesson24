@@ -1,0 +1,19 @@
+package OOPs;
+
+public class MethodDemo {
+	//1.No parameters no return
+	
+	public void methodOne() {
+		
+		System.out.println("Hey, we are learning method!");
+		
+		
+		
+		
+		
+	}
+
+	
+	
+
+}

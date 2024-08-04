@@ -1,0 +1,20 @@
+package day5;
+
+public class SmallestOfThreeNumbers {
+	
+	public static void main(String[]args) {
+		
+		int a =89, b=65, c=33 , smallest ;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

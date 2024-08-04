@@ -1,0 +1,34 @@
+package day5;
+
+public class PrintDayNumber {
+	
+	public  static void main(String[]args) {
+		
+		String dayName ="Monday".toLowerCase();
+		//switch case
+		switch(dayName) {
+		case "Monday":{
+			System.out.println("Day one");
+			break;
+		}
+		
+		
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

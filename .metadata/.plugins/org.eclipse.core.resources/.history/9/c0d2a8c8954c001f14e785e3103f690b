@@ -1,0 +1,10 @@
+package Action_item3;
+
+public class EvenOddCounter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package day5;
+
+public class PalindromeOrNot {
+	
+	
+	public static void main(String[]args) {
+		
+		int originalNumber = 121, reverse =0;
+		
+		
+		
+		
+	}
+
+}

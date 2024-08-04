@@ -1,0 +1,67 @@
+package day5;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+
+		// String are immutable - it cannot be changed
+		String s = "Welcome 123";// string literal
+		//s = "Welcome to Java Selenium";
+
+		int num = 1000;
+		num = 2000;
+		String s2 = new String("Welcome");// through string object
+		
+		//to learn important methods of String Class
+		//length()--counts all the characters in a string and returns the number in int data type
+		
+		int length =   s2.length();
+		System.out.println("The length is : "+length);
+		
+		System.out.println(s.length());
+		
+		
+		//concat()- works to join multiple strings 
+		String s1 = "Welcome";
+		String s3 = " to java";
+		String s4 = " programming";
+		System.out.println(s1.concat(s3).concat(s4)); //method chaining
+		
+		//trim() - would trim any leading and trailing spaces from a string
+		s="       welcome to java    ";
+		System.out.println(s.length());
+		s.trim();
+		System.out.println(s.trim().length());
+		
+		//charAt()--return a single character out of a string from specific index
+		//index starts from 0 
+		s="Java Selenium";
+		System.out.println(s.charAt(5));
+		
+		//contains() -- returns a boolean (true/false)
+		System.out.println(s.contains("Jav"));
+		System.out.println(s.contains("Sel"));
+		System.out.println(s.contains("ium"));
+		System.out.println(s.contains("ava"));
+		System.out.println(s.contains("Sli"));
+
+
+		//equals(0, equalsIgnoreCase() -->compares to strings and returns true/false
+		s1="welcome";
+		s2="welcome";
+		System.out.println(s1.equals("welcome"));
+		System.out.println(s1.equalsIgnoreCase("s2"));
+		
+		//replace() -it replaces 
+		s ="welcome to java selenium automation";
+		System.out.println(s.replace("w", "W"));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

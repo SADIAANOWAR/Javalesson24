@@ -1,0 +1,16 @@
+package day4;
+
+public class FindingEvenAndOdd {
+	
+	    public static void main(String[] args) {
+	        int[] a = {10, 30, 45, 30, 30, 40, 50, 20, 10};
+
+	        for (int value : a) {
+	            if (a % 2 == 0) {
+	                System.out.println(a + " is even");
+	            } else {
+	                System.out.println(a+ " is odd");
+	            }
+	        }
+	    }
+	}
